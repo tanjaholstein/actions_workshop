@@ -1,7 +1,9 @@
 name: Lint Python Code
 
 # Add the correct triggers for this workflow
-on: [push]
+on: 
+  - push
+  - workflow_dispatch
 
 
 jobs:
