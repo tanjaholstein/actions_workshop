@@ -22,7 +22,7 @@ jobs:
         run: cd app && pip install -r requirements.txt
       
       - name: Install pylint
-      - run: |
+        run: |
            pip install pylint
            cd app && pylint *.py
 
